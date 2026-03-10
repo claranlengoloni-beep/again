@@ -1,4 +1,4 @@
-/* Styling Headers using IDs and Classes */
+
 #main-title {
     color: crimson;
     text-align: center;
@@ -20,7 +20,7 @@
     font-style: italic;
 }
 
-/* Styling Paragraphs */
+
 .feature-text {
     color: blue;
     font-weight: bold;
