@@ -1,0 +1,40 @@
+/* Styling Headers using IDs and Classes */
+#main-title {
+    color: crimson;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sub-header {
+    color: darkcyan;
+    border-bottom: 2px solid darkcyan;
+}
+
+.section-title {
+    color: darkred;
+    font-variant: small-caps;
+}
+
+#footer-note {
+    color: forestgreen;
+    font-style: italic;
+}
+
+/* Styling Paragraphs */
+.feature-text {
+    color: blue;
+    font-weight: bold;
+}
+
+#special-offer {
+    color: purple;
+    text-decoration: underline;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.info-text {
+    color: #555;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
