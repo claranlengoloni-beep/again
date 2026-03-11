@@ -1,40 +1,76 @@
+/* 1. Global Styles - Setting the stage */
+body {
+    font-family: 'Georgia', serif; /* Elegant serif for a luxury feel */
+    line-height: 1.8;
+    color: #333;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fffafb;
+}
 
+/* 2. Grouped Selectors - Efficiency */
+.feature-text, .info-text, #special-offer {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* 3. Header Styling */
 #main-title {
     color: crimson;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 3px double crimson;
+    padding-bottom: 10px;
 }
 
 .sub-header {
     color: darkcyan;
     border-bottom: 2px solid darkcyan;
+    text-align: center;
+    font-weight: 300;
 }
 
 .section-title {
     color: darkred;
     font-variant: small-caps;
+    margin-top: 30px;
+}
+
+/* 4. Text Content Styles */
+.feature-text {
+    color: blue;
+    font-weight: bold;
+    border-left: 5px solid blue; /* Creates a callout effect */
+}
+
+.info-text {
+    color: #555;
+    font-family: sans-serif;
+    font-size: 0.95rem;
+}
+
+/* 5. Special Offer with Interactive Hover */
+#special-offer {
+    color: purple;
+    text-decoration: underline;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease; /* Smooth transition for the hover */
+    cursor: pointer;
+}
+
+#special-offer:hover {
+    background-color: #fce4ec; /* Light pink glow */
+    transform: scale(1.02);    /* Subtle "pop" effect */
+    color: #d63384;
 }
 
 #footer-note {
     color: forestgreen;
     font-style: italic;
-}
-
-
-.feature-text {
-    color: blue;
-    font-weight: bold;
-}
-
-#special-offer {
-    color: purple;
-    text-decoration: underline;
-    background-color: #f9f9f9;
-    padding: 10px;
-}
-
-.info-text {
-    color: #555;
-    line-height: 1.6;
-    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
 }
